@@ -99,7 +99,7 @@ code {
 	padding: 15px;
 	z-index: 1;
 	/*background-color: #915da3;*/
-	background-image: url("https://github.com/kimyoomin/kimyoomin.github.io/blob/master/public/img/fireworks-1285264_1920.jpg");
+	background-image: url('https://github.com/kimyoomin/kimyoomin.github.io/blob/master/public/img/fireworks-1285264_1920.jpg');
 	color: #fff;
 }
 
