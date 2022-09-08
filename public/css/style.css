@@ -100,6 +100,7 @@ code {
 	z-index: 1;
 	/*background-color: #915da3;*/
 	background-image: url('https://github.com/kimyoomin/kimyoomin.github.io/blob/master/public/img/fireworks-1285264_1920.jpg?raw=true');
+	background-size: cover;
 /* 	color: #fff; */
 }
 
@@ -120,7 +121,8 @@ code {
 
 .lead {
 	font-size: 120%;
-	color: #aaa;
+/* 	color: #aaa; */
+	color :#fff;
 }
 
 .sidebar-header {
@@ -137,13 +139,15 @@ code {
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
 	margin-bottom: 5px;
+	color : #fff;
 }
 
 a.nav-item {
 	font-size: 120%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
-	color: #aaa;
+/* 	color: #aaa; */
+	color : #fff;
 }
 
 a.nav-item:hover { color: #777; }
