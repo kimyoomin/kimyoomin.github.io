@@ -1,3 +1,11 @@
+---
+layout: post
+title: DJANGO와 NGINX 그리고 Vue.js연결하는 법 (feat. UWSGI)
+date: 2020-08-02 19:20:23 +0900
+category: server
+---
+
+
 # DJANGO와 NGINX 그리고 Vue.js연결하는 법 (feat. UWSGI)
 <br>
 
