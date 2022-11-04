@@ -99,7 +99,7 @@ code {
 	padding: 15px;
 	z-index: 1;
 	/*background-color: #915da3;*/
-	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://github.com/kimyoomin/kimyoomin.github.io/blob/master/public/img/fireworks-1285264_1920.jpg?raw=true');
+	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/fireworks-1285264_1920.jpg');
 	background-size: cover;
 /* 	color: #fff; */
 }
@@ -139,6 +139,7 @@ code {
 .nav-title {
 	font-size: 100%;
 	font-family: "Noto Sans";
+	font-weight: bold;
 	text-transform: uppercase;
 	border-bottom: 1px solid #fff;
 	margin-bottom: 5px;
@@ -146,11 +147,15 @@ code {
 }
 
 a.nav-item {
-	font-size: 120%;
+	font-size:100%;
 	font-family: "Noto Sans";
 	text-transform: capitalize;
 /* 	color: #aaa; */
 	color : #fff;
+}
+
+.tag-name{
+	font-size : 80%;
 }
 
 a.nav-item:hover { color: #777; }
@@ -158,6 +163,7 @@ a.nav-item:hover { color: #777; }
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
 .badge::after { content: ")"; }
+
 
 .post-list > li {
 }
@@ -295,7 +301,7 @@ footer {
 }
 
 .sidebar-footer {
-	margin-top: 80px;
+	margin-top: 100px;
 	font-size: 0.75em;
 	font-weight: lighter;
 	font-family: "Roboto";
@@ -303,7 +309,7 @@ footer {
 }
 
 .sidebar-footer a {
-	color: #ccc;
+	color: rgb(118, 118, 118);
 }
 
 

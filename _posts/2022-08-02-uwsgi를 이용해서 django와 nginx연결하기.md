@@ -3,6 +3,7 @@ layout: post
 title: DJANGO와 NGINX 그리고 Vue.js연결하는 법 (feat. UWSGI)
 date: 2020-08-02 19:20:23 +0900
 category: server
+tags : [uwsgi,django,nginx]
 ---
 
 
@@ -17,13 +18,13 @@ category: server
 - python 3.9.1
 - linux 환경 
 - nginx 설치
----
+
 <br>
 <br>
 <br>
 
 
- ## Django
+## Django
  - 장고 기본 프로젝트 만들기
  
 
@@ -91,7 +92,7 @@ category: server
 <br>
 <br>
 
- ## USWGI
+## USWGI
  - 장고가 잘 된다면 다음은 uwsgi다.
  1. uwsgi 설치 (2.0.20)
  ```console
