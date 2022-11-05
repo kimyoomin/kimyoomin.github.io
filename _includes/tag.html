@@ -35,7 +35,7 @@
 			$('#tag-name').text(hash.substring(0, 1).toUpperCase() + hash.substring(1));
 			let tag_class = '.post-tag-' + hash;
 			let items = $('.post-list-item').each((i, e) => {
-				console.log(e.classList[1])
+
 
 				if(!e.classList[1].includes(hash)){
 					$(e).hide();

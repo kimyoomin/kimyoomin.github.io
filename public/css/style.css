@@ -133,7 +133,7 @@ code {
 }
 
 .sidebar-nav {
-	margin-top: 20px;
+	margin-top: 2px;
 }
 
 .nav-title {
@@ -144,6 +144,15 @@ code {
 	border-bottom: 1px solid #fff;
 	margin-bottom: 5px;
 	color : #fff;
+}
+
+.nav-first{
+	font-size : 120%;
+	border-bottom : 0px;
+}
+
+.nav-head{
+	margin-top:0px;
 }
 
 a.nav-item {
@@ -279,6 +288,7 @@ header.home {
 	font-size: 1.5em;
 	color: #111;
 	font-weight: bold;
+	/* font-family:"Noto Sans"; */
 }
 
 .post-date {
